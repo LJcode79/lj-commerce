@@ -27,7 +27,9 @@ export default function CheckoutNow({
         price_id: price_id
     }
     return (
-        <Button onClick={()=>{
+        <Button 
+            variant="outline"
+            onClick={()=>{
             buyNow(product.price_id)
         }}>Checkout Now</Button>
     )
